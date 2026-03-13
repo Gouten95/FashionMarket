@@ -1,0 +1,55 @@
+.fm-landing-page {
+  background-color: var(--fm-bg-page);
+  margin-top: 0 !important;
+}
+
+.fm-landing-page img {
+  width: 100%;
+  display: block;
+}
+
+.fm-landing-page .fm-optional-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.fm-landing-hero #fm-hero-banner::before,
+.fm-landing-hero #fm-hero-banner::after,
+.fm-landing-hero #fm-hero-banner:hover::after,
+.fm-landing-hero #fm-hero-banner:hover::before {
+  opacity: 0;
+}
+
+.fm-landing-hero .owl-carousel .owl-nav.disabled {
+  opacity: 0;
+}
+
+.fm-landing-content .fm-highlight-accent {
+  color: var(--fm-orange);
+}
+
+.fm-landing-content .fm-nav-item-title-dark,
+.fm-landing-content .fm-nav-item-title {
+  padding: 5px;
+  color: var(--fm-white);
+  font-weight: bold;
+}
+
+.fm-landing-content .fm-nav-item-title-dark {
+  background-color: var(--fm-dark);
+  font-size: 24px;
+}
+
+.fm-section-heading {
+  padding-inline: 16px;
+}
+
+
+@media (min-width: 768px) {
+  .fm-section-heading {
+    padding-inline: 0;
+  }
+
+  /* Reserved for future landing component responsive overrides */
+}

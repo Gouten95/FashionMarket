@@ -1,0 +1,139 @@
+/* ESTILO TextoSeo */
+
+.fm-seo-content,
+.texto_pie_pagina,
+.text_pie_pagina {
+    margin-top: 70px;
+    max-width: 1170px;
+    margin: 20px auto;
+    padding-inline: 16px;
+    text-align: left;
+}
+
+/* Estilos heredados por divs anidados dentro del content slot */
+.fm-seo-content div,
+.texto_pie_pagina div,
+.text_pie_pagina div {
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+}
+
+@media (min-width: 768px) {
+  .fm-seo-content,
+  .texto_pie_pagina,
+  .text_pie_pagina {
+      padding-inline: 0;
+  }
+}
+
+.fm-seo-content h2,
+.text_pie_pagina h2,
+.texto_pie_pagina h2 {
+    font-size: 24px;
+}
+
+.fm-seo-content p,
+.texto_pie_pagina p,
+.text_pie_pagina p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0 0 20px;
+}
+
+.fm-seo-content p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0 0 20px;
+}
+
+.fm-seo-content a,
+.texto_pie_pagina a,
+.text_pie_pagina a {
+    color: #0054a0;
+    font-weight: bold;
+}
+
+.fm-seo-content h2::after,
+.texto_pie_pagina h2::after,
+.text_pie_pagina h2::after {
+    display: block;
+    content: " ";
+    margin: 5px auto 10px 0;
+    width: 56px;
+    height: 5px;
+    background-color: #f2d447;
+}
+
+.title-p {
+    font-size: 20px !important;
+}
+
+.fm-seo-content ul,
+.fm-seo-content ol,
+.texto_pie_pagina ul,
+.texto_pie_pagina ol,
+.text_pie_pagina ul,
+.text_pie_pagina ol {
+    list-style: auto;
+}
+
+.fm-seo-content li,
+.texto_pie_pagina li,
+.text_pie_pagina li {
+    list-style: auto;
+    margin-bottom: 14px;
+}
+
+.fm-seo-content li {
+    list-style: auto;
+    margin-bottom: 14px;
+    line-height: 1.5;
+}
+
+.fm-seo-content ul,
+.fm-seo-content ol {
+    padding-inline-start: 28px;
+    margin: 0 0 20px;
+}
+
+.fm-seo-content li p {
+    display: inline;
+    margin: 0;
+}
+
+.fm-seo-content .p-start,
+.texto_pie_pagina .p-start,
+.text_pie_pagina .p-start {
+    padding-inline-start: 40px;
+}
+
+.fm-seo-content .list-inside li,
+.texto_pie_pagina .list-inside li,
+.text_pie_pagina .list-inside li {
+    list-style: inside;
+    padding-bottom: 10px;
+}
+
+.fm-seo-content .list-num-inside li,
+.texto_pie_pagina .list-num-inside li,
+.text_pie_pagina .list-num-inside li {
+    list-style: inside;
+    list-style-type: auto;
+    padding-bottom: 10px;
+}
+
+.opcions-circle li {
+    list-style-type: disc;
+    margin-left: 5%;
+}
+
+.opcions-num li {
+    list-style-type: decimal;
+    margin-left: 2%;
+}
+
+.opcions-num-mayorespaciado li {
+    list-style-type: decimal;
+    margin-left: 5%;
+}

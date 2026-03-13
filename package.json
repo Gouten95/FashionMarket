@@ -1,0 +1,38 @@
+{
+  "name": "FashionMarket",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "modern dev",
+    "dev": "modern dev",
+    "build": "modern build",
+    "serve": "modern serve",
+    "lint": "biome check"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.1.2",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "@modern-js/runtime": "3.0.4",
+    "contentstack": "^3.26.4",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.0",
+    "tailwind-merge": "^2.5.5"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@modern-js/app-tools": "3.0.4",
+    "@modern-js/tsconfig": "3.0.4",
+    "@types/node": "^20",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "autoprefixer": "^10.4.20",
+    "dotenv": "^17.3.1",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "~5.7.3"
+  }
+}
