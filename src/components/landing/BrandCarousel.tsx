@@ -32,7 +32,7 @@ export function BrandCarousel({ data }: BrandCarouselProps) {
               <img
                 src={item.icon?.url}
                 alt={item.alt || ''}
-                className="mx-[15px] w-[60px] md:w-[70px] lg:w-[80px]"
+                className="mx-[15px] w-[60px] md:w-[70px] lg:w-[80px]" 
               />
             </OptionalLink>
           </div>
