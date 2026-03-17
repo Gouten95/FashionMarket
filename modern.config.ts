@@ -4,6 +4,11 @@ import 'dotenv/config';
 // https://modernjs.dev/en/configure/app/usage
 export default defineConfig({
   plugins: [appTools()],
+  output: {
+    distPath: {
+      root: 'dist',
+    },
+  },
   server: {
     ssr: true,
   },

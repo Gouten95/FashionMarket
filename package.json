@@ -12,10 +12,10 @@
     "node": ">=20"
   },
   "dependencies": {
+    "@modern-js/runtime": "3.0.4",
     "@radix-ui/react-slot": "^1.1.2",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "@modern-js/runtime": "3.0.4",
     "contentstack": "^3.26.4",
     "react": "^19.2.3",
     "react-dom": "^19.2.0",
@@ -33,6 +33,7 @@
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.17",
     "tailwindcss-animate": "^1.0.7",
-    "typescript": "~5.7.3"
+    "typescript": "~5.7.3",
+    "vercel": "^50.32.5"
   }
 }
