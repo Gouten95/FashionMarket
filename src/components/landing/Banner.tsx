@@ -10,7 +10,7 @@ export function Banner({ data }: BannerProps) {
 
   const item = data.items[0];
 
-  // Orange text banner: item has text but no meaningful image
+  // Orange text banner: item has text but no meaningful images
   if (item.text) {
     return (
       <div className="mb-5">
