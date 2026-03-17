@@ -9,7 +9,7 @@
     "lint": "biome check"
   },
   "engines": {
-    "node": ">=20"
+    "node": "24.x"
   },
   "dependencies": {
     "@modern-js/runtime": "3.0.4",
